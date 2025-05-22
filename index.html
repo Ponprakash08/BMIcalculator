@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#003153]">
+    <section>
+        <div class="2xl:container mx-auto">
+            <div class="w-[90%] mx-auto grid grid-col-1  flex flex-col justify-center items-center mt-[17%] ">
+                <div
+                    class="h-[230px] w-[400px] m-3 bg-[#ffffff] p-7 space-y-5 text-center rounded-lg shadow-xl font-[Roboto]">
+                    <h1 class="text-[30px] leading-[20px] font-bold text-[#4B9CD3]">BMI Calculator</h1>
+                    <p class="text-[20px] leading-[25px] font-bold text-[#002fa7]">Click the button below to
+                        calculate your BMI</p>
+                    <button onclick="calculateBMI()"
+                        class="text-[15px] text-[#ffffff] bg-[#c7a900ff] p-2 rounded-md shadow-lg"> Calculate
+                        BMI</button>
+                    <div id="result" class="text-[15px] text-[#bda000ff] leading-[15px]"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src=" ./demo.js"></script>
+</body>
+
+</html>
