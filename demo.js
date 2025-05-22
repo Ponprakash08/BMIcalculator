@@ -1,6 +1,6 @@
 function calculateBMI() {
     let weightInput = prompt("Enter your Weight in kg");
-    let heightInput = prompt("Enter your Height on Cm");
+    let heightInput = prompt("Enter your Height in Cm");
 
 
     let weight = parseFloat(weightInput);
